@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header .img {
+    width: 130px;
+}
+
+.header .navbar{
+    color: blue;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+}

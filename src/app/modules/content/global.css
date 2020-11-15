@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+.home {
+    height: 550px;
+}
+
+.home span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home h2 {
+    font-size: 30px;
+}
+
+.home .img-1 {
+    margin-top: 20px;
+    width: 100%;
+    min-width: 280px;
+}
+
+.home .content-1 {
+    margin-top: 30px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: #263238;  
+}
+
+.home .content-2 p {
+    font-size: 22px;
+}
+
+.home .content-2 button {
+    background: #FF7324;
+    border: 1px solid #445963;
+    color: white;
+}
+
+.home .content-2 button:active {
+    background: white;
+    color:#263238;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.service .card {
+    width: 18rem;
+    margin: 10px;
+}

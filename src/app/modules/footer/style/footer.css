@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #ff823a;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    font-weight: 600;
+}

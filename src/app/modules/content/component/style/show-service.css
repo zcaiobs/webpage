@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.show-service {
+    margin: 50px 0px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.show-service .img-1 {
+    margin-top: 20px;
+    width: 80%;
+    min-width: 280px;
+}
+
+.show-service .list-group {
+    font-size: 20px;
+}
