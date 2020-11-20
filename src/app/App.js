@@ -6,6 +6,11 @@ import Footer from './modules/footer/footer'
 import Whatsapp from './modules/content/component/btn-whatsapp'
 import ShowService from './modules/content/component/show-service'
 import Location from './modules/content/component/location'
+import Carousel from './modules/content/component/carousel'
+import Gallery from './modules/content/gallery'
+import About from './modules/content/about'
+import Blog from './modules/content/blog'
+import NotFoundPage from './modules/content/notfound'
 
 import imgService1 from './modules/content/component/img/ajuste.jpg'
 import imgService2 from './modules/content/component/img/conserto.jpg'
@@ -26,15 +31,25 @@ export default function App() {
               <Service title={'Ajuste'} img={imgService1} text={"O Ajuste de roupa contribui com o caimento da peça e proporciona mais conforto."} />
               <Service title={'Conserto'} img={imgService2} text={"O conserto é uma forma rápida para recuperar pequenas avarias na peça."} />
               <Service title={'Customização'} img={imgService3} text={"O processo de customização pode ser feito com apliques, patches, rendados entre outros."} />
-              <Service title={'Confecção'} img={imgService4} text={"Crie uma peça original e exclusiva, (há limite de quantidade, entre em contato para mais informações)."} />
+              <Service title={'Confecção'} img={imgService4} text={"Crie uma peça exclusiva, (há limite de quantidade, entre em contato para mais informações)."} />
             </div>
             <ShowService />
+            <Carousel />
             <hr/>
             <Location />
           </Route>
-          <Route path='/page2'><div className='page2'><h1>Page two</h1></div></Route>
-          <Route path='/page3'><div className='page3'><h1>Page three</h1></div></Route>
-          <Route path='/page4'><div className='page4'><h1>Page four</h1></div></Route>
+          <Route exect path='/galeria'>
+            <Gallery />
+          </Route>
+          <Route exect path='/sobre'>
+            <About />
+          </Route>
+          <Route exect path='/blog'>
+            <Blog />
+          </Route>
+          <Route path='/*'>
+            <NotFoundPage />
+          </Route>
         </Switch>
         <hr />
         <Footer />

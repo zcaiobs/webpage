@@ -58,3 +58,17 @@
     width: 18rem;
     margin: 10px;
 }
+
+.service .card-c {
+    overflow: hidden;
+}
+
+.service .card img {
+    transition: all 0.3s;
+    opacity: 0.9;
+}
+
+.service .card:hover > .card-c img {
+    transform: scale(1.1);
+    opacity: 1;
+}
