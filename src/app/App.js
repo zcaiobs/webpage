@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Header from './modules/header/header';
+import Header from './modules/header/header'
 import Home from './modules/content/home'
 import Service from './modules/content/service' 
 import Footer from './modules/footer/footer'
