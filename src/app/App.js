@@ -10,7 +10,7 @@ import Carousel from './modules/content/component/carousel'
 import Gallery from './modules/content/gallery'
 import About from './modules/content/about'
 import Blog from './modules/content/blog'
-import NotFoundPage from './modules/content/notfound'
+import NotFoundPage from './modules/content/notfound' //fghfgh
 
 import imgService1 from './modules/content/component/img/ajuste.jpg'
 import imgService2 from './modules/content/component/img/conserto.jpg'
@@ -38,7 +38,7 @@ export default function App() {
             <hr/>
             <Location />
           </Route>
-          <Route exect path='/galeria'>
+          <Route exect path='/galeria'> 
             <Gallery />
           </Route>
           <Route exect path='/sobre'>
